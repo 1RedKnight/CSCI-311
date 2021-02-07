@@ -883,7 +883,7 @@ img {
 #body #contact form #send:hover {
 	background-position: 0 -29px;
 }
-#footer {
+/*#footer {
 	background: url(../images/footer-shadow.png) repeat-x left top;
 	margin: 0;
 	padding: 40px 0;
@@ -938,4 +938,4 @@ img {
 	margin: 0;
 	text-align: right;
 	width: 470px;
-}
+}*/
