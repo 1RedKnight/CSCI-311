@@ -20,8 +20,8 @@ img {
 	border: 0;
 }
 #header {
-	background: url(../images/bg-header.jpg) repeat-x left top;
-	border-top: 2px solid #0b9398;
+	/*background: url(../images/bg-header.jpg) repeat-x left top;*/
+	border-top: 4px solid #0b9398;
 }
 #header div:first-child {
 	background: url(../images/light.png) no-repeat center top;
@@ -105,6 +105,7 @@ img {
 }
 #header > div > ul li.current a {
 	background: url(../images/bg-menu.png) no-repeat right top;
+	text-transform: capitalize;
 	color: #ff8fb4;
 }
 #header > div > ul li a:hover {
@@ -113,7 +114,6 @@ img {
 #body {
 	background: #4a182b;
 	border-bottom: 1px solid #5f233a;
-	min-height: 1050px;
 	padding: 27px 0 20px;
 	width: 100%;
 }
@@ -122,14 +122,14 @@ img {
 	padding: 0;
 	width: 960px;
 }
-#body .header, #body .body, #body .footer {
+#body .header, #body .body /*, #body .footer */ {
 	overflow: hidden;
 }
 #body .header {
-	background: url(../images/frame.jpg) no-repeat center center;
-	height: 449px;
+	/*background: url(../images/frame.jpg) no-repeat center center;*/
+	background: #1e1d1b;
+	border: 4px ridge #876a38;
 	padding: 13px 7px;
-	width: 946px;
 }
 #body .header div {
 	float: left;
@@ -242,6 +242,7 @@ img {
 	float: left;
 	margin: 0 20px;
 }
+/*
 #body .footer > div {
 	float: left;
 	margin: 0 10px;
@@ -341,7 +342,9 @@ img {
 	margin: 0 0 0 5px;
 	text-decoration: none;
 }
-#body .footer p a:hover, #body .footer div.article ul li p a.more:hover, #body .footer div.article ul li span a:hover {
+#body .footer p a:hover,
+#body .footer div.article ul li p a.more:hover,
+#body .footer div.article ul li span a:hover {
 	color: #b8a87c;
 }
 #body .footer div.section p a:hover {
@@ -363,6 +366,7 @@ img {
 #body .footer div.section > a:hover {
 	opacity: 0.8;
 }
+*/
 #body #content {
 	overflow: hidden;
 }
@@ -424,13 +428,13 @@ img {
 #body #content ul.gallery li a.figure span {
 	display: block;
 	line-height: 24px;
-	margin: 0;
+	/* margin: 0; */
 	padding: 5px 0;
 }
 #body #content ul.gallery li a.figure:hover img {
 	opacity: 0.8;
 }
-#body #content ul.gallery li p {
+/*#body #content ul.gallery li p {
 	color: #989282;
 	font-size: 16px;
 	font-family: 'DeliusSwashCaps-Regular';
@@ -445,7 +449,7 @@ img {
 }
 #body #content ul.gallery li p a:hover {
 	color: #b8a87c;
-}
+}*/
 #body #content ul.article li {
 	float: left;
 	margin: 0 30px 30px;
