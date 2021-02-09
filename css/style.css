@@ -1,5 +1,5 @@
 /*Website template by freewebsitetemplates.com*/
-<@font-face {
+@font-face {
 	font-family: 'DeliusSwashCaps-Regular';
 	src: url('../fonts/DeliusSwashCaps-Regular.eot');
 	src: url('../fonts/DeliusSwashCaps-Regular.woff') format('woff'), url('../fonts/DeliusSwashCaps-Regular.ttf') format('truetype'), url('../fonts/DeliusSwashCaps-Regular.svg') format('svg');
@@ -423,6 +423,7 @@ a {
 	text-decoration: none;
 }
 #body #content ul.gallery li a.figure img {
+	width: 240px;height: 196px;
 	display: block;
 }
 #body #content ul.gallery li a.figure span {
