@@ -16,17 +16,17 @@ body {
 a {
 	outline: none;
 }
-img {
+/*img {
 	border: 0;
-}
+}*/
 #header {
 	/*background: url(../images/bg-header.jpg) repeat-x left top;*/
 	border-top: 4px solid #0b9398;
 }
-#header div:first-child {
+/*#header div:first-child {
 	background: url(../images/light.png) no-repeat center top;
 	height: 144px;
-}
+}*/
 #header div:first-child div {
 	border: 0;
 	background: none;
