@@ -177,6 +177,7 @@ a {
 }
 #body .header ul {
 	margin: 0;
+	margin-left: 150px;
 	padding: 30px 0 0;
 	width: 239px;
 }
@@ -208,6 +209,26 @@ a {
 #body .header ul li a:hover span {
 	color: #ff8fb4;
 }
+
+#body .header > div > div {
+	margin-top: 85px;
+	margin-right: 60px;
+	margin-left: 50px;
+	width: 250px;
+	height: 430px;
+	position: static;
+	animation: slideshow 10s infinite;
+	background-size: 250px 500px;
+}
+
+@keyframes slideshow {
+	0% {opacity: 0;}
+	25% {opacity: 1; background-image:url(../images/Pasta1.jpg);}
+	50% {opacity: 0;}
+	75% {opacity: 1; background-image:url(../images/Pasta2.jpg);}
+	100% {opacity: 0;}
+}
+
 #body .body {
 	padding: 40px 0;
 	width: 940px;
