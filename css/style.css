@@ -217,7 +217,7 @@ a {
 	width: 250px;
 	height: 430px;
 	position: static;
-	animation: slideshow 10s infinite;
+	animation: slideshow 7.5s infinite;
 	background-size: 250px 500px;
 }
 
@@ -427,10 +427,12 @@ a {
 	background: none;
 	border: 0;
 }
+/*
 #body #content ul.gallery li:last-child {
 	background: none;
 	border: 0;
 }
+*/
 #body #content ul.gallery li a.figure {
 	color: #fcc5c9;
 	background: #1b1b1b;
