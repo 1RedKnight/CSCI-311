@@ -427,10 +427,10 @@ a {
 	background: none;
 	border: 0;
 }
-#body #content ul.gallery li:last-child {
+/*#body #content ul.gallery li:last-child {
 	background: none;
 	border: 0;
-}
+}*/
 #body #content ul.gallery li a.figure {
 	color: #fcc5c9;
 	background: #1b1b1b;
@@ -446,6 +446,8 @@ a {
 #body #content ul.gallery li a.figure img {
 	width: 240px;height: 196px;
 	display: block;
+	transition: transform .2s; /* Animation */
+	margin: 0 auto;
 }
 #body #content ul.gallery li a.figure span {
 	display: block;
@@ -456,6 +458,10 @@ a {
 #body #content ul.gallery li a.figure:hover img {
 	opacity: 0.8;
 }
+#body #content ul.gallery li a.figure:active img {
+	transform: scale(2);
+}
+
 /*#body #content ul.gallery li p {
 	color: #989282;
 	font-size: 16px;
