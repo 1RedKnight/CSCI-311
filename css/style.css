@@ -153,7 +153,7 @@ a {
 	font-weight: normal;
 	margin: 0;
 	padding: 30px 0 0;
-	text-align: center;
+	text-align: right;
 	text-transform: capitalize;
 }
 #body .header div p {
@@ -211,22 +211,24 @@ a {
 }
 
 #body .header > div > div {
-	margin-top: 85px;
-	margin-right: 60px;
-	margin-left: 50px;
-	width: 250px;
-	height: 430px;
+	margin-left: 70px;
+	width: 500px;
+	height: 500px;
 	position: static;
-	animation: slideshow 7.5s infinite;
-	background-size: 250px 500px;
+	animation: slideshow 10s infinite;
+	background-size: 500px 500px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #876a38;
 }
 
 @keyframes slideshow {
-	0% {opacity: 0;}
-	25% {opacity: 1; background-image:url(../images/Pasta1.jpg);}
-	50% {opacity: 0;}
-	75% {opacity: 1; background-image:url(../images/Pasta2.jpg);}
-	100% {opacity: 0;}
+	0% {background-image: url(../images/Pasta1.jpg);}
+	25% {background-image: url(../images/Pasta2.jpg);}
+	50% {background-image: url(../images/Pasta4.jpg);}
+	75% {background-image: url(../images/Pasta6.jpg);}
+	100% {background-image: url(../images/Pasta1.jpg);}
+
 }
 
 #body .body {
